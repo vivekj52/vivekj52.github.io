@@ -75,6 +75,7 @@ ul {
 }
 .head {
     font-family: cursive;
+    color: white;
     font-size: 150%;
     margin: 5%;
 }
@@ -173,14 +174,45 @@ ul {
             transform: translate(-8px, -50%);
   }
   
-  .timeline {
-    background-color: #1D1D1D;
-    /* min-height: 100vh; */
-    height: 100%;
-    margin: 0;
-    font-family: cursive;
+.skills {
+  background-color: whitesmoke;
+  height: 100%;
+  margin: 0;
+  font-family: cursive;
+  position: relative;
+}
+
+.prog_lan{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 40%; 
+}
+.tools{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    width: 40%; 
+}
+
+.technical{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 40%; 
+}
+.lan{
     position: relative;
-  }
+    top: 40%;
+    left: 50%;
+    width: 40%; 
+}
+.strength{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 40%; 
+}
 
 .fa {
     padding: 20px;
