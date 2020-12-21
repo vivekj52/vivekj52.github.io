@@ -25,6 +25,7 @@ html {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 #pic{
     position: relative;
@@ -83,7 +84,6 @@ li a:hover:not(.active) {
   font-family: cursive;
   color: white;
   font-size: 150%;
-  margin: 5%;
 }
 .contents-left {
   position: absolute;
