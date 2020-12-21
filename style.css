@@ -9,6 +9,7 @@ html {
 .home {
   width: 100%;
   height: 100%;
+  margin: 0%;
   background-size: cover;
   background-image: url("background.jpg");
   background-attachment: fixed;
@@ -18,11 +19,18 @@ html {
 .profile {
   width: 100%;
   height: 100%;
-  background-image: url("about_me.jpg");
+  margin-top: 0px; 
+  background-color: #1d1d4d;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+#pic{
+    position: relative;
+    left: 42%; 
+    width: 15%;
+    border-radius: 100%;
 }
 
 .menu {
@@ -30,38 +38,35 @@ html {
   margin: 0%;
   padding: 0%;
   right: 0%;
-  top: 40%;
+  top: 20%;
   z-index: 1;
 }
 .menu_ul {
   list-style-type: none;
+  opacity: 70%;
   text-align: center;
   margin: 0;
   padding: 0;
   width: wrap;
-  height: wrap;
   right: 0%;
-  top: 40%;
+  top: 30%;
   background-color: #f1f1f1;
   position: fixed;
-  border: 1px solid #555;
+  border: 1px solid #000;
 }
 
 li a {
   display: block;
   color: #000;
-  padding: 0px 0px;
+  height: 20%;
+  padding: 15px 0px;
   text-decoration: none;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #000;
 }
 
-li a.active {
-  background-color: #4caf50;
-  color: white;
-}
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #c0c0d8;
   color: white;
 }
 
@@ -97,9 +102,8 @@ li a:hover:not(.active) {
 
 .timeline {
   background-color: #1d1d4d;
-  /* min-height: 100vh; */
   height: 100%;
-  margin: 0;
+  margin-top: 5px;
   font-family: cursive;
   position: relative;
   overflow: auto;
@@ -178,7 +182,8 @@ li a:hover:not(.active) {
 .skills {
   background-color: #1d1d4d;
   height: 100%;
-  margin: 0;
+  margin-top: 5px; 
+  margin-bottom: 5px;
   font-family: cursive;
   position: relative;
   color: #f1f1f1;

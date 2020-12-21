@@ -9,7 +9,6 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>
       Vivek Jain
@@ -40,12 +39,12 @@
       <div class="head">
         <center><h1>PROFILE</h1></center>
       </div>
+      <img id="pic" src="profile.jpg">
       <div class="contents-left">
         <h2>About Me</h2>
         <br /><br />
         <p>
-          <i> I am a</i>
-          <br />
+          I am a
           Problem solving software engineer with good interpersonal and
           analytical skills.
         </p>
@@ -66,8 +65,7 @@
         <i class="material-icons">&#xe0b0;</i>
         +91 9981298554
         <br /><br /><br />
-        <h3>Social</h3>
-        <br />
+        <h3>Social</h3>       
         <a
           href="https://www.linkedin.com/in/vivekjain52/"
           class="fa fa-linkedin"
@@ -341,7 +339,7 @@
             <ul class="list">
               <li>AIR 770 in GATE 2020(Computer Science).</li>
               <li>
-                Received Service and Commitment Award from TCS in regognition of
+                Received Service and Commitment Award from TCS in recognition of
                 3 years of dedicated service.
               </li>
               <li>
@@ -368,13 +366,13 @@
         <br />
         <ul class="list">
                 <li>
-                    Intrests:
+                    Interests:
                     <ul class="list">
                         <li>
                             Photography
                         </li>
                         <li>
-                            Travel
+                            Travelling
                         </li>
                         <li>
                             Automobiles
@@ -384,26 +382,5 @@
             </ul>
       </div>
     </div>
-
-    <script>
-      $(document).ready(function() {
-        $("a").on("click", function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-
-            $("html, body").animate(
-              {
-                scrollTop: $(hash).offset().top
-              },
-              800,
-              function() {
-                window.location.hash = hash;
-              }
-            );
-          }
-        });
-      });
-    </script>
   </body>
 </html>
